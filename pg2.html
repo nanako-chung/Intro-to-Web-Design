@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    <title>Bootstrap Assignment</title>
+    
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../Bootstrap/css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="row">
+        <div class="col-lg-12 col-xs-12">     
+            <!--Navbar-->
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+                      <li><a href="../Bootstrap/index.html">Page 1</a></li>
+                      <li><a href="../Bootstrap/pg1.html">Page 2</a></li>
+                      <li class="active"><a href="../Bootstrap/pg2.html">Page 3</a></li>
+                    </ul>
+                  </div>
+            </nav>
+            
+            <!--Customized component #1-->
+            <h1><strong>Random Math Lesson</strong></h1>
+        </div>
+
+        <div class="col-lg-4 col-xs-7">
+            <!--Customized component #2-->
+            <p class="text-justified">For the Quadratic Formula to work, you must have your equation arranged in the form "(quadratic) = 0". Also, the "2a" in the denominator of the Formula is underneath everything above, not just the square root. And it's a "2a" under there, not just a plain "2". Make sure that you are careful not to drop the square root or the "plus/minus" in the middle of your calculations, or I can guarantee that you will forget to "put them back in" on your test, and you'll mess yourself up. Remember that "b2" means "the square of ALL of b, including its sign", so don't leave b^2 being negative, even if b is negative, because the square of a negative is a positive.</p></div>
+
+        <div class="col-lg-8 col-xs-5">
+            <!--Customized component #3-->
+            <var>ax</var>^2+<var>bx</var>+<var>c</var>= <var>0</var>
+
+            <!--Customized component (extra)-->
+            <label class="sr-only" for="inputHelpBlock"></label>
+            <input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
+            <span id="helpBlock" class="help-block">Don't understand something? Ask for help!</span>
+        </div>
+    </div>
+  </body>
+</html>
