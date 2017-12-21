@@ -1,5 +1,5 @@
-# Topics Covered:
-This repository contains sample code of a website I built in my Intro to Web Design class.
+# Assignment Specifications & Topics Covered:
+This repository contains code for a website I built in my Intro to Web Design class. The topics covered in the class include:
 
 - Computer principles
 - Unix command line
