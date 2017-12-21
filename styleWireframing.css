@@ -1,0 +1,83 @@
+h1, h2, h3, h4 {
+    font-family: fantasy, 'Roboto', sans-serif;
+    font-size:auto;
+    color:black;
+}
+
+p {
+    font-family: fantasy, 'Roboto', sans-serif;
+    font-size:auto;
+    color:black; 
+}
+
+body {
+    background-color: peachpuff;
+    font-family: fantasy,'Roboto', sans-serif;
+}
+
+#container{
+    position: right;
+    margin: 1px;
+    top:0;
+    padding:1px;
+}
+
+#nav {
+    background-color:darkturquoise;
+    width:20%;
+    position:left,fixed;
+    text-align:left;
+    padding-left:10px;
+    margin:1px;
+    float:left;
+    clear:right;
+}
+
+#header {
+    background-color:darkseagreen;
+    float:top, right;
+    text-align:center;
+    width:99%;
+    padding:5px;
+    clear:all;
+}
+
+#text {
+    background-color: yellow;
+    width:77%;
+    text-align: center;
+    float:right;
+    padding:1px;
+    margin: 7px;
+    clear:all;
+}
+
+#footer {
+    background-color:salmon;
+    text-align: center;
+    padding:1px;
+    padding-right:7px;
+    position: bottom;
+    width:99%;
+    clear:both;
+}
+
+a:link {
+    color:darkcyan;
+}
+
+a:focus {
+    color:dodgerblue;
+}
+
+a:visited {
+    color: mediumvioletred;
+}
+
+a:hover {
+    color:chartreuse;
+}
+
+a:active {
+    color: mediumaquamarine;
+}
